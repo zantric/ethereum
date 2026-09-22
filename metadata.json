@@ -1,0 +1,203 @@
+{
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "blockchain": "Solana",
+    "network": "mainnet-beta",
+    "standard": "SPL Token",
+    "token_type": "Fungible",
+    "decimals": 6,
+    "mint_address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+    "token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "supply": {
+      "total_supply": "8000000000000",
+      "circulating_supply": "8000000000000",
+      "maximum_supply": "8000000000000",
+      "raw_supply": "8000000000000000000",
+      "unit": "tokens"
+    }
+  },
+
+  "metadata": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "description": "Ethereum (ETH) is the native asset of the Ethereum network, a decentralized, open-source blockchain featuring smart contract functionality. Launched in July 2015 by Vitalik Buterin and co-founders, Ethereum is the second-largest cryptocurrency by market capitalization. The Solana SPL representation is a Wormhole-wrapped asset (WETH), providing sub-second finality and sub-cent transaction fees for ETH holders accessing Solana DeFi.",
+    "image": "https://assets.coingecko.com/coins/images/279/large/ethereum.png",
+    "logo_uri": "https://assets.coingecko.com/coins/images/279/large/ethereum.png",
+    "logo_github": "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/eth.png",
+    "external_url": "https://ethereum.org/",
+    "whitepaper": "https://ethereum.org/en/whitepaper/",
+    "documentation": "https://ethereum.org/en/developers/docs/",
+    "official_website": "https://ethereum.org/",
+    "issuer": "Wormhole (wrapped asset)",
+    "issuer_jurisdiction": "Decentralized",
+    "reserve_attestor": "Wormhole Guardians",
+    "attestation_frequency": "Real-time on-chain verification"
+  },
+
+  "classification": {
+    "asset_type": "cryptocurrency",
+    "category": "smart-contract-platform",
+    "peg": "ETH",
+    "peg_ratio": "1:1",
+    "tags": [
+      "ethereum",
+      "eth",
+      "wrapped",
+      "wormhole",
+      "solana",
+      "spl",
+      "layer-1",
+      "smart-contracts"
+    ]
+  },
+
+  "market": {
+    "price_usd": 3906.42,
+    "market_cap_usd": 31251200000000,
+    "fully_diluted_valuation_usd": 31251200000000,
+    "volume_24h_usd": 1240.38,
+    "volume_to_market_cap_24h": 0.0000000397,
+    "liquidity_usd": 101876.75,
+    "liquidity_note": "Aggregate ETH liquidity across Solana DEX pools; Meteora DLMM and Raydium CLMM carry the deepest single venues.",
+    "dominance": 0.17,
+    "price_change": {
+      "1h": 0.0,
+      "24h": -0.12,
+      "7d": 2.8,
+      "30d": -5.1,
+      "1y": 38.6
+    },
+    "ath": 4878.26,
+    "ath_date": "2021-11-10",
+    "atl": 0.432979,
+    "atl_date": "2015-10-20",
+    "last_updated": "2026-09-19T00:00:00Z",
+    "source": "CoinMarketCap + CoinGecko composite"
+  },
+
+  "coinmarketcap": {
+    "cmc_id": 1027,
+    "cmc_ucid": 1027,
+    "slug": "ethereum",
+    "rank": 2,
+    "listing_status": "listed",
+    "verified": true,
+    "market_chart_url": "https://coinmarketcap.com/currencies/ethereum/",
+    "solana_token_page": "https://coinmarketcap.com/currencies/ethereum/solana/",
+    "url": "https://coinmarketcap.com/currencies/ethereum/",
+    "tags": [
+      "Mineable",
+      "PoS",
+      "Smart Contracts",
+      "Layer 1 (L1)",
+      "Solana Ecosystem",
+      "Ethereum Ecosystem",
+      "BNB Chain Ecosystem"
+    ],
+    "platform": {
+      "name": "Solana",
+      "token_address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    }
+  },
+
+  "coingecko": {
+    "id": "ethereum",
+    "coingecko_ucid": "ethereum",
+    "slug": "ethereum",
+    "asset_platform": "solana",
+    "contract_address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+    "market_cap_rank": 2,
+    "verified": true,
+    "market_chart_url": "https://www.coingecko.com/en/coins/ethereum",
+    "solana_token_page": "https://www.coingecko.com/en/coins/ethereum/solana",
+    "url": "https://www.coingecko.com/en/coins/ethereum",
+    "categories": [
+      "Cryptocurrency",
+      "Layer 1 (L1)",
+      "Smart Contract Platform",
+      "Proof of Stake (PoS)",
+      "Solana Ecosystem",
+      "Ethereum Ecosystem",
+      "BNB Chain Ecosystem",
+      "Avalanche Ecosystem"
+    ]
+  },
+
+  "dex": {
+    "listed": true,
+    "primary_dex": "Meteora",
+    "pairs": [
+      "ETH/SOL",
+      "ETH/USDC"
+    ],
+    "pools": [
+      {
+        "dex": "Meteora",
+        "type": "DLMM",
+        "pair": "ETH/SOL",
+        "pool_address": "BuAe7hJtwXFa7K1DhRvfULk6eHZk6EVMN55DpiwBjuc3",
+        "liquidity_usd": 71891.18,
+        "fdv_usd": 85660000,
+        "url": "https://www.geckoterminal.com/solana/pools/BuAe7hJtwXFa7K1DhRvfULk6eHZk6EVMN55DpiwBjuc3"
+      },
+      {
+        "dex": "Raydium",
+        "type": "AMM",
+        "pair": "ETH/USDC",
+        "pool_address": "AoPebtuJC4f2RweZSxcVCcdeTgaEXY64Uho8b5HdPxAR",
+        "liquidity_usd": 2973,
+        "url": "https://dexrabbit.bitquery.io/solana/pool/AoPebtuJC4f2RweZSxcVCcdeTgaEXY64Uho8b5HdPxAR"
+      }
+    ],
+    "pair_addresses": [
+      "BuAe7hJtwXFa7K1DhRvfULk6eHZk6EVMN55DpiwBjuc3",
+      "AoPebtuJC4f2RweZSxcVCcdeTgaEXY64Uho8b5HdPxAR"
+    ]
+  },
+
+  "solana": {
+    "explorer": "https://explorer.solana.com/address/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+    "solscan": "https://solscan.io/token/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+    "solana_fm": "https://solana.fm/address/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+    "birdeye": "https://birdeye.so/token/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs?chain=solana",
+    "dexscreener": "https://dexscreener.com/solana/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+  },
+
+  "socials": {
+    "twitter": "https://x.com/ethereum",
+    "telegram": "https://t.me/ethereum",
+    "youtube": "https://www.youtube.com/ethereum",
+    "linkedin": "https://www.linkedin.com/company/ethereum",
+    "reddit": "https://www.reddit.com/r/ethereum/",
+    "github": "https://github.com/ethereum"
+  },
+
+  "security": {
+    "mint_authority": "Wormhole bridge (controlled by Wormhole Guardians)",
+    "freeze_authority": null,
+    "mint_authority_revoked": false,
+    "freeze_authority_revoked": true,
+    "transfer_fee_enabled": false,
+    "default_frozen": false,
+    "non_transferable": false,
+    "blacklist_capable": false,
+    "blacklist_note": "No freeze authority exists on this mint. The token cannot be frozen at the SPL level. Wormhole bridge controls minting and burning through its guardian network.",
+    "solana_token_program_standard": "SPL Token Program",
+    "token_2022_extensions": false
+  },
+
+  "tokenomics": {
+    "total_supply": "8000000000000",
+    "circulating_supply": "8000000000000",
+    "maximum_supply": "8000000000000",
+    "allocation": {
+      "liquidity": { "percentage": 0, "amount": "0" },
+      "treasury": { "percentage": 0, "amount": "0" },
+      "team": { "percentage": 0, "amount": "0" },
+      "community": { "percentage": 0, "amount": "0" },
+      "marketing": { "percentage": 0, "amount": "0" }
+    },
+    "issuance_model": "Elastic — Wormhole mints wrapped ETH when native ETH is locked on Ethereum and burns wrapped ETH upon redemption. Supply on Solana mirrors the locked ETH on the source chain.",
+    "reserve_backing": "1:1 backed by native Ethereum held in Wormhole bridge custody. Each WETH on Solana is redeemable for 1 ETH on the Ethereum network through the Wormhole protocol."
+  }
+}
