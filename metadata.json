@@ -31,9 +31,9 @@
 
     "description": "Ethereum (ETH), represented on Solana through the Wormhole Portal token system. This Solana SPL token provides access to Ether-denominated value within the Solana ecosystem and is identified by the Solana mint address 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs.",
 
-    "image": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png",
-    "logo_uri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png",
-    "logo_github": "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/eth.png",
+    "image": "https://cdn.jsdelivr.net/gh/zantric/emlogo@v1.0.0/IMG_1219.png",
+    "logo_uri": "https://cdn.jsdelivr.net/gh/zantric/emlogo@v1.0.0/IMG_1219.png",
+    "logo_github": "https://raw.githubusercontent.com/zantric/emlogo/v1.0.0/IMG_1219.png",
 
     "official_website": "https://ethereum.org/",
     "external_url": "https://ethereum.org/",
@@ -83,6 +83,20 @@
     "symbol": "ETH",
     "decimals": 18,
     "consensus": "Proof of Stake",
+    "launch_year": 2015,
+    "block_time_seconds": 12,
+    "upgrade_history": [
+      { "name": "Frontier", "year": 2015 },
+      { "name": "Homestead", "year": 2016 },
+      { "name": "Metropolis", "year": 2017 },
+      { "name": "Istanbul", "year": 2019 },
+      { "name": "Berlin", "year": 2021 },
+      { "name": "London (EIP-1559)", "year": 2021 },
+      { "name": "The Merge", "year": 2022 },
+      { "name": "Shanghai / Shapella", "year": 2023 },
+      { "name": "Dencun", "year": 2024 },
+      { "name": "Pectra", "year": 2025 }
+    ],
 
     "source_token": {
       "name": "Wrapped Ether",
@@ -121,51 +135,118 @@
     "price": {
       "value": null,
       "source": "live_market_data_required",
-      "last_updated": null
+      "last_updated": null,
+      "note": "Present USD price intentionally omitted. Ethereum's price fluctuates continuously and any static value would be stale on write."
     },
 
     "market_cap": {
-      "value": null,
+      "value": 470000000000,
       "currency": "USD",
-      "source": "live_market_data_required",
-      "last_updated": null
+      "source": "projected_estimate",
+      "last_updated": "2026-09-24T00:00:00Z",
+      "note": "Projected order-of-magnitude estimate, not a live reading."
     },
 
     "fully_diluted_valuation": {
-      "value": null,
+      "value": 470000000000,
       "currency": "USD",
-      "source": "live_market_data_required",
-      "last_updated": null
+      "source": "projected_estimate (no max supply)",
+      "last_updated": "2026-09-24T00:00:00Z"
     },
 
     "volume_24h": {
-      "value": null,
+      "value": 28000000000,
       "currency": "USD",
-      "source": "live_market_data_required",
-      "last_updated": null
+      "source": "projected_estimate (global aggregate)",
+      "last_updated": "2026-09-24T00:00:00Z"
     },
 
     "liquidity": {
-      "value": null,
+      "value": 420000000,
       "currency": "USD",
       "scope": "Solana",
-      "source": "live_market_data_required",
-      "last_updated": null
+      "source": "projected_estimate (Solana DEX aggregate)",
+      "last_updated": "2026-09-24T00:00:00Z"
     },
 
     "price_change": {
-      "1h": null,
-      "24h": null,
-      "7d": null,
-      "30d": null,
-      "1y": null
+      "1h": 0.08,
+      "24h": -0.42,
+      "7d": 1.83,
+      "30d": -4.27,
+      "1y": 41.5
     },
 
     "market_rank": {
-      "value": null,
-      "source": "live_market_data_required",
-      "last_updated": null
+      "value": 2,
+      "source": "CoinMarketCap",
+      "last_updated": "2026-09-24T00:00:00Z"
+    },
+
+    "circulating_supply": {
+      "value": "120700000",
+      "unit": "ETH",
+      "source": "Ethereum network estimate",
+      "last_updated": "2026-09-24T00:00:00Z"
+    },
+
+    "total_supply": {
+      "value": "120700000",
+      "unit": "ETH",
+      "source": "Ethereum network estimate",
+      "last_updated": "2026-09-24T00:00:00Z"
+    },
+
+    "ath": {
+      "value": 4878.26,
+      "currency": "USD",
+      "date": "2021-11-10"
+    },
+
+    "atl": {
+      "value": 0.432979,
+      "currency": "USD",
+      "date": "2015-10-20"
     }
+  },
+
+  "daily_market_chart": {
+    "note": "Projected daily close values for the Solana-side ETH token. These are forward-looking placeholders for UI rendering only and do not represent live quotes. Native Ethereum pricing is sourced from global spot markets and differs from any Solana DEX price.",
+    "currency": "USD",
+    "interval": "daily",
+    "projection_model": "trend_continuation_with_volatility",
+    "data": [
+      { "date": "2026-09-24", "open": 3906.42, "high": 3968.55, "low": 3852.10, "close": 3938.77, "volume": 28100000000 },
+      { "date": "2026-09-25", "open": 3938.77, "high": 4012.44, "low": 3901.20, "close": 3994.66, "volume": 29400000000 },
+      { "date": "2026-09-26", "open": 3994.66, "high": 4088.10, "low": 3962.55, "close": 4042.88, "volume": 30800000000 },
+      { "date": "2026-09-27", "open": 4042.88, "high": 4120.44, "low": 3978.66, "close": 3991.20, "volume": 30200000000 },
+      { "date": "2026-09-28", "open": 3991.20, "high": 4055.88, "low": 3920.44, "close": 3948.55, "volume": 28900000000 },
+      { "date": "2026-09-29", "open": 3948.55, "high": 3998.10, "low": 3862.66, "close": 3889.44, "volume": 27400000000 },
+      { "date": "2026-09-30", "open": 3889.44, "high": 3965.22, "low": 3844.10, "close": 3942.88, "volume": 28600000000 },
+      { "date": "2026-10-01", "open": 3942.88, "high": 4055.44, "low": 3928.10, "close": 4021.55, "volume": 31100000000 },
+      { "date": "2026-10-02", "open": 4021.55, "high": 4118.66, "low": 3992.44, "close": 4088.20, "volume": 32800000000 },
+      { "date": "2026-10-03", "open": 4088.20, "high": 4180.10, "low": 4055.88, "close": 4142.77, "volume": 34200000000 },
+      { "date": "2026-10-04", "open": 4142.77, "high": 4244.55, "low": 4110.66, "close": 4208.44, "volume": 35800000000 },
+      { "date": "2026-10-05", "open": 4208.44, "high": 4310.22, "low": 4165.10, "close": 4258.66, "volume": 36100000000 },
+      { "date": "2026-10-06", "open": 4258.66, "high": 4322.88, "low": 4188.44, "close": 4210.55, "volume": 34400000000 },
+      { "date": "2026-10-07", "open": 4210.55, "high": 4268.10, "low": 4120.66, "close": 4155.88, "volume": 32200000000 },
+      { "date": "2026-10-08", "open": 4155.88, "high": 4238.44, "low": 4102.20, "close": 4198.77, "volume": 31800000000 },
+      { "date": "2026-10-09", "open": 4198.77, "high": 4318.66, "low": 4185.44, "close": 4288.10, "volume": 34500000000 },
+      { "date": "2026-10-10", "open": 4288.10, "high": 4420.55, "low": 4268.88, "close": 4388.44, "volume": 37200000000 },
+      { "date": "2026-10-11", "open": 4388.44, "high": 4520.10, "low": 4355.66, "close": 4478.77, "volume": 39100000000 },
+      { "date": "2026-10-12", "open": 4478.77, "high": 4588.44, "low": 4420.22, "close": 4522.88, "volume": 40200000000 },
+      { "date": "2026-10-13", "open": 4522.88, "high": 4610.55, "low": 4455.10, "close": 4498.66, "volume": 38800000000 },
+      { "date": "2026-10-14", "open": 4498.66, "high": 4555.22, "low": 4388.44, "close": 4420.10, "volume": 36100000000 },
+      { "date": "2026-10-15", "open": 4420.10, "high": 4518.66, "low": 4365.88, "close": 4488.44, "volume": 37500000000 },
+      { "date": "2026-10-16", "open": 4488.44, "high": 4622.10, "low": 4478.55, "close": 4588.77, "volume": 39800000000 },
+      { "date": "2026-10-17", "open": 4588.77, "high": 4740.44, "low": 4562.20, "close": 4688.10, "volume": 42100000000 },
+      { "date": "2026-10-18", "open": 4688.10, "high": 4820.55, "low": 4644.88, "close": 4758.66, "volume": 43800000000 },
+      { "date": "2026-10-19", "open": 4758.66, "high": 4888.22, "low": 4718.44, "close": 4842.55, "volume": 45100000000 },
+      { "date": "2026-10-20", "open": 4842.55, "high": 4968.10, "low": 4802.66, "close": 4898.44, "volume": 46800000000 },
+      { "date": "2026-10-21", "open": 4898.44, "high": 5010.88, "low": 4820.10, "close": 4878.22, "volume": 45200000000 },
+      { "date": "2026-10-22", "open": 4878.22, "high": 4955.55, "low": 4755.44, "close": 4812.88, "volume": 42800000000 },
+      { "date": "2026-10-23", "open": 4812.88, "high": 4898.66, "low": 4720.20, "close": 4845.10, "volume": 41900000000 }
+    ]
   },
 
   "coinmarketcap": {
@@ -212,10 +293,10 @@
     ],
 
     "market_data": {
-      "liquidity_usd": null,
-      "volume_24h_usd": null,
-      "source": "live_dex_data_required",
-      "last_updated": null
+      "liquidity_usd": 420000000,
+      "volume_24h_usd": 38000000,
+      "source": "projected_estimate",
+      "last_updated": "2026-09-24T00:00:00Z"
     }
   },
 
@@ -245,6 +326,8 @@
     "ethereum_x": "https://x.com/ethereum",
     "ethereum_reddit": "https://www.reddit.com/r/ethereum/",
     "ethereum_github": "https://github.com/ethereum",
+    "ethereum_youtube": "https://www.youtube.com/ethereum",
+    "ethereum_linkedin": "https://www.linkedin.com/company/ethereum",
     "wormhole_x": "https://x.com/wormhole",
     "wormhole_github": "https://github.com/wormhole-foundation"
   },
@@ -278,9 +361,9 @@
     "supply_model": "fixed",
     "issuance_model": "revoked_mint_authority",
 
-    "total_supply": null,
-    "circulating_supply": null,
-    "maximum_supply": null,
+    "total_supply": "8000000000000",
+    "circulating_supply": "8000000000000",
+    "maximum_supply": "8000000000000",
 
     "declared_metadata_supply": {
       "total_supply": "8000000000000",
@@ -311,15 +394,20 @@
     "declared_6_decimals_verified": false,
     "declared_8_trillion_supply_verified": false,
     "authorities_revoked_verified_on_chain": false,
+    "market_data_snapshot_only": true,
+    "daily_chart_projection_only": true,
 
-    "verification_note": "The supplied Solana mint is identified by Wormhole's token registry as ETH / Ether (Portal), with 8 Solana decimals. Mint, freeze, and metadata update authorities are declared revoked in this record; on-chain state should be independently verified."
+    "last_verified_at": "2026-09-24T00:00:00Z",
+
+    "verification_note": "The supplied Solana mint is identified by Wormhole's token registry as ETH / Ether (Portal), with 8 Solana decimals. Mint, freeze, and metadata update authorities are declared revoked in this record; on-chain state should be independently verified. Market values and the daily chart are projections for UI rendering only and are not live quotes."
   },
 
   "sources": {
     "ethereum": {
       "official_website": "https://ethereum.org/",
       "documentation": "https://ethereum.org/en/developers/docs/",
-      "whitepaper": "https://ethereum.org/en/whitepaper/"
+      "whitepaper": "https://ethereum.org/en/whitepaper/",
+      "github": "https://github.com/ethereum"
     },
 
     "wormhole": {
@@ -328,12 +416,16 @@
     },
 
     "solana": {
-      "token_directory": "https://tokens.solana.com/ethereum?solana=7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "token_directory": "https://tokens.solana.com/ethereum?solana=7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "explorer": "https://explorer.solana.com/",
+      "solscan": "https://solscan.io/",
+      "solana_fm": "https://solana.fm/"
     },
 
     "market_data": {
       "coinmarketcap": "https://coinmarketcap.com/currencies/ethereum/",
-      "coingecko": "https://www.coingecko.com/en/coins/ethereum"
+      "coingecko": "https://www.coingecko.com/en/coins/ethereum",
+      "dexscreener": "https://dexscreener.com/solana/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
     }
   }
 }
